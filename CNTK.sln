@@ -703,6 +703,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSEvalClient", "Source\Exte
 		{EF766CAE-9CB1-494C-9153-0030631A6340} = {EF766CAE-9CB1-494C-9153-0030631A6340}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Char-RNN", "Char-RNN", "{6CEFD4BD-301F-4E9A-8FF4-2E74F9B9D2E4}"
+	ProjectSection(SolutionItems) = preProject
+		ASCIITo1HotUCI.py = ASCIITo1HotUCI.py
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{34A4A331-2AF6-431E-ACAC-4EE264DBFF82}"
+	ProjectSection(SolutionItems) = preProject
+		MarcusAureliusMeditations.txt = MarcusAureliusMeditations.txt
+		README-data.txt = README-data.txt
+		TinyShakespeare.txt = TinyShakespeare.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug_CpuOnly|x64 = Debug_CpuOnly|x64
@@ -987,5 +1000,7 @@ Global
 		{06D2C644-AE5F-4C30-A1F6-C78E2845AAB1} = {EF710C5A-E616-442A-889D-C997D39AF2E1}
 		{EF766CAE-9CB1-494C-9153-0030631A6340} = {60F87E25-BC87-4782-8E20-1621AAEBB113}
 		{41E11A59-62B2-4927-A4F8-F40B1B612C6C} = {60F87E25-BC87-4782-8E20-1621AAEBB113}
+		{6CEFD4BD-301F-4E9A-8FF4-2E74F9B9D2E4} = {97AAB0C8-D553-49CB-A539-004FCD7FD59F}
+		{34A4A331-2AF6-431E-ACAC-4EE264DBFF82} = {6CEFD4BD-301F-4E9A-8FF4-2E74F9B9D2E4}
 	EndGlobalSection
 EndGlobal
