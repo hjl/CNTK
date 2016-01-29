@@ -705,15 +705,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSEvalClient", "Source\Exte
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Char-RNN", "Char-RNN", "{6CEFD4BD-301F-4E9A-8FF4-2E74F9B9D2E4}"
 	ProjectSection(SolutionItems) = preProject
-		ASCIITo1HotUCI.py = ASCIITo1HotUCI.py
-		README.txt = README.txt
+		Examples\Text\Char-RNN\ASCIITo1HotUCI.py = Examples\Text\Char-RNN\ASCIITo1HotUCI.py
+		Examples\Text\Char-RNN\README.txt = Examples\Text\Char-RNN\README.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{34A4A331-2AF6-431E-ACAC-4EE264DBFF82}"
 	ProjectSection(SolutionItems) = preProject
-		MarcusAureliusMeditations.txt = MarcusAureliusMeditations.txt
-		README-data.txt = README-data.txt
-		TinyShakespeare.txt = TinyShakespeare.txt
+		Examples\Text\Char-RNN\data\MarcusAureliusMeditations.txt = Examples\Text\Char-RNN\data\MarcusAureliusMeditations.txt
+		Examples\Text\Char-RNN\data\README.txt = Examples\Text\Char-RNN\data\README.txt
+		Examples\Text\Char-RNN\data\TinyShakespeare.txt = Examples\Text\Char-RNN\data\TinyShakespeare.txt
 	EndProjectSection
 EndProject
 Global
