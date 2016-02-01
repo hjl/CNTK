@@ -7,7 +7,6 @@
 # Python string.printable (upper+lower+numbers+punctuation) contains 100 items
 # '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ \t\n\r\x0b\x0c'
 # note that the last few won't behave well in a text data file, so we will rewrite the corresponding data labels
-
 import sys, os, string;
 
 def __main__():

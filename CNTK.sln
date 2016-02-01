@@ -355,6 +355,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Speech", "Speech", "{3CE841C0-02E5-46DB-B401-6F8784880173}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text", "Text", "{97AAB0C8-D553-49CB-A539-004FCD7FD59F}"
+	ProjectSection(SolutionItems) = preProject
+		Examples\Text\Char-RNN\README.txt = Examples\Text\Char-RNN\README.txt
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReaderTests", "Tests\UnitTests\ReaderTests\ReaderTests.vcxproj", "{A4FC3467-4787-43E8-BBC0-D79AE56B468D}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -757,6 +760,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_ConvBatchNorm", "03_Conv
 		Tests\EndToEndTests\Examples\Image\MNIST\03_ConvBatchNorm\testcases.yml = Tests\EndToEndTests\Examples\Image\MNIST\03_ConvBatchNorm\testcases.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Char-RNN", "Char-RNN", "{D13F5E5E-92BB-49BD-956B-FAA2260F8324}"
+	ProjectSection(SolutionItems) = preProject
+		Examples\Text\Char-RNN\ASCIITo1HotUCI.py = Examples\Text\Char-RNN\ASCIITo1HotUCI.py
+		Examples\Text\Char-RNN\README.txt = Examples\Text\Char-RNN\README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{F7F276BC-26F6-4120-BCA5-47F2B19D23F7}"
+	ProjectSection(SolutionItems) = preProject
+		Examples\Text\Char-RNN\data\MarcusAureliusMeditations.txt = Examples\Text\Char-RNN\data\MarcusAureliusMeditations.txt
+		Examples\Text\Char-RNN\data\MSFT-speeches-2015.txt = Examples\Text\Char-RNN\data\MSFT-speeches-2015.txt
+		Examples\Text\Char-RNN\data\README.txt = Examples\Text\Char-RNN\data\README.txt
+		Examples\Text\Char-RNN\data\TinyShakespeare.txt = Examples\Text\Char-RNN\data\TinyShakespeare.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug_CpuOnly|x64 = Debug_CpuOnly|x64
@@ -1050,5 +1067,7 @@ Global
 		{6F1D0CE1-0F18-4B4C-9581-1F2146C8D300} = {63C6816D-66BF-487E-B541-094142C8272B}
 		{A0B366FE-2EEA-4E32-9AED-12C46409C30C} = {63C6816D-66BF-487E-B541-094142C8272B}
 		{BD783D50-47E2-485F-BDAF-29BD40D84645} = {63C6816D-66BF-487E-B541-094142C8272B}
+		{D13F5E5E-92BB-49BD-956B-FAA2260F8324} = {97AAB0C8-D553-49CB-A539-004FCD7FD59F}
+		{F7F276BC-26F6-4120-BCA5-47F2B19D23F7} = {D13F5E5E-92BB-49BD-956B-FAA2260F8324}
 	EndGlobalSection
 EndGlobal
