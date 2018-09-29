@@ -443,6 +443,13 @@ namespace ONNX
         { L"StraightThrough",{ {
             { L"StraightThrough", "StraightThrough" },
         } } },
+<<<<<<< HEAD
+=======
+        { L"LogPlus",{ {
+            { L"LogPlus", "LogPlus" },
+        } } },
+        
+>>>>>>> a36fae88bb0b8bbeec99801a2e3b755a7533d2ed
     };
 
     // given a cntkOpName and cntk attribute OpName which is saved in CNTK::Function's attribute,
